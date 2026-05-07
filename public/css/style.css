@@ -5,7 +5,7 @@ body {
     color: #1a1a2e;
 }
 
-/* ===== Navbar ===== */
+
 .navbar-dict {
     background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
     padding: 14px 0;
@@ -33,7 +33,6 @@ body {
     color: #4fc3f7;
 }
 
-/* ===== Page Header ===== */
 .page-header {
     display: flex;
     align-items: center;
@@ -51,7 +50,6 @@ body {
     letter-spacing: -0.5px;
 }
 
-/* ===== Cards ===== */
 .word-card {
     border: none;
     border-radius: 14px;
@@ -92,7 +90,6 @@ body {
     gap: 8px;
 }
 
-/* ===== Buttons ===== */
 .btn-add {
     background: linear-gradient(135deg, #0f9b58 0%, #27ae60 100%);
     color: #fff;
@@ -204,7 +201,7 @@ body {
     color: #333;
 }
 
-/* ===== Forms ===== */
+
 .card-form {
     background: #fff;
     border-radius: 14px;
@@ -233,7 +230,7 @@ body {
     box-shadow: 0 0 0 3px rgba(79, 195, 247, 0.15);
 }
 
-/* ===== Empty State ===== */
+
 .empty-state {
     text-align: center;
     padding: 60px 20px;
@@ -251,7 +248,7 @@ body {
     margin: 0;
 }
 
-/* ===== Stats Badge ===== */
+
 .stats-badge {
     background: #e8f4fd;
     color: #1a1a2e;

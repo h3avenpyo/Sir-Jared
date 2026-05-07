@@ -10,18 +10,18 @@ class Dictionary extends \CodeIgniter\Controller {
         $this->wordModel = new Word_model();
     }
 
-    // READ (LIST)
+   
     public function index() {
         $data['words'] = $this->wordModel->get_all();
         return view('dictionary/list', $data);
     }
 
-    // CREATE FORM
+    
     public function create() {
         return view('dictionary/create');
     }
 
-    // CREATE ACTION
+   
     public function store() {
         $word = $this->request->getPost('word');
         $meaning = $this->request->getPost('meaning');
@@ -39,13 +39,13 @@ class Dictionary extends \CodeIgniter\Controller {
         }
     }
 
-    // EDIT FORM
+   
     public function edit($id) {
         $data['word'] = $this->wordModel->get_by_id($id);
         return view('dictionary/edit', $data);
     }
 
-    // UPDATE ACTION
+    
     public function update($id) {
         $data = [
             'word' => $this->request->getPost('word'),
@@ -56,7 +56,7 @@ class Dictionary extends \CodeIgniter\Controller {
         return redirect()->to('/dictionary');
     }
 
-    // DELETE
+    
     public function delete($id) {
         $this->wordModel->delete_word($id);
         return redirect()->to('/dictionary');

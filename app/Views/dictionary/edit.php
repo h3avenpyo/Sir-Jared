@@ -10,7 +10,7 @@
 </head>
 <body>
 
-<!-- Navbar -->
+
 <nav class="navbar navbar-dict">
     <div class="container">
         <a class="navbar-brand" href="<?= base_url('dictionary') ?>">
@@ -19,7 +19,7 @@
     </div>
 </nav>
 
-<!-- Content -->
+
 <div class="container mt-4">
     <a href="<?= base_url('dictionary') ?>" class="btn-back mb-3">
         <i class="bi bi-arrow-left"></i> Back to Dictionary

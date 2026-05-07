@@ -10,7 +10,7 @@
 </head>
 <body>
 
-<!-- Navbar -->
+
 <nav class="navbar navbar-dict">
     <div class="container">
         <a class="navbar-brand" href="<?= base_url('dictionary') ?>">
@@ -22,7 +22,7 @@
     </div>
 </nav>
 
-<!-- Content -->
+
 <div class="container mt-4">
     <div class="page-header">
         <h2>Dictionary</h2>
